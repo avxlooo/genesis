@@ -43,10 +43,20 @@ input {
   border-radius: 8px;
 }
 
+input {
+  margin-top: 8px;
+  border: none;
+  outline: none;
+}
+
 .button {
   text-align: center;
   background-color: rgb(4, 166, 206);
   color: rgb(228, 244, 248);
+}
+
+button {
+  border: none;
 }
 
 .button:hover {

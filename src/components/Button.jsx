@@ -1,8 +1,8 @@
 const Button = () => {
   return (
-    <div className="button">
-      <p>Login</p>
-    </div>
+    <button className="button" onClick={() => console.log("clicked")}>
+      Login
+    </button>
   );
 };
 
